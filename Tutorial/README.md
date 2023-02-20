@@ -1,5 +1,7 @@
 # Tensorflow Tutorial
 
+Before running the program, please install tensorflow with `pip install tensorflow` or `pip install tensorflow-gpu` if you have a GPU.
+
 - [Convolutional Neural Network](https://www.tensorflow.org/tutorials/images/cnn)
 - [Image Classification](https://www.tensorflow.org/tutorials/images/classification)
 - [Transfer Learning and Fine Tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)
