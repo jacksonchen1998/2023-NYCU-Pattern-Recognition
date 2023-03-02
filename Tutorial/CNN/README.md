@@ -23,8 +23,52 @@
 - Optimizer: `Adam`
 - batch_size: default (32)
 
-| Model | Accuracy |
-| --- | --- |
-| Custom CNN | 0.4583 |
-| VGG16 | 0.6258 |
-| ResNet50 | 0.4628 |
+<table>
+    <tr>
+        <th>Model</th>
+        <th>Test Accuracy</th>
+        <th>Graph</th>
+    </tr>
+    <tr>
+        <td>Custom CNN</td>
+        <td>0.4583</td>
+        <td><img src="./image/customCNN10.png" width="300"></td>
+    </tr>
+    <tr>
+        <td>VGG16</td>
+        <td>0.6258</td>
+        <td><img src="./image/vgg16_10.png" width="300"></td>
+    </tr>
+    <tr>
+        <td>ResNet50</td>
+        <td>0.4628</td>
+        <td><img src="./image/resnet50_10.png" width="300"></td>
+</table>
+
+- Epochs: `100`
+- lr: `0.00001`
+- Loss: `categorical_crossentropy`
+- Optimizer: `Adam`
+- batch_size: default (32)
+
+<table>
+    <tr>
+        <th>Model</th>
+        <th>Test Accuracy</th>
+        <th>Graph</th>
+    </tr>
+    <tr>
+        <td>Custom CNN</td>
+        <td>0.6239</td>
+        <td><img src="./image/customCNN100.png" width="300"></td>
+    </tr>
+    <tr>
+        <td>VGG16</td>
+        <td></td>
+        <td><img src="./image/" width="300"></td>
+    </tr>
+    <tr>
+        <td>ResNet50</td>
+        <td></td>
+        <td><img src="./image/" width="300"></td>
+</table>
