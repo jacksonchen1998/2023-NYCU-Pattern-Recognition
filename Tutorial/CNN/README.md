@@ -64,11 +64,11 @@
     </tr>
     <tr>
         <td>VGG16</td>
-        <td></td>
-        <td><img src="./image/" width="300"></td>
+        <td>0.6941</td>
+        <td><img src="./image/vgg16_100.png" width="300"></td>
     </tr>
     <tr>
         <td>ResNet50</td>
-        <td></td>
-        <td><img src="./image/" width="300"></td>
+        <td>0.5234</td>
+        <td><img src="./image/resnet50_100.jpg" width="300"></td>
 </table>
