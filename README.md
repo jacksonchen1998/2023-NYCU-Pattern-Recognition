@@ -1,9 +1,5 @@
 # 2023-NYCU-Pattern-Recognition
 
-## Class Notes
-
-[HackMD](https://hackmd.io/ondjHlS2StynD2TdzWamsw)
-
 ## Grading
 
 1. Midterm Exam (40%), but it's free

@@ -17,11 +17,12 @@
 
 ## Results
 
-- Epochs: `10`
-- lr: `0.00001`
+- Epochs: `20`
+- lr: `1e-4`
 - Loss: `categorical_crossentropy`
 - Optimizer: `Adam`
-- batch_size: default (32)
+- Scheduler: `ExponentialDecay`
+- batch_size: `32`
 
 <table>
     <tr>
@@ -31,44 +32,16 @@
     </tr>
     <tr>
         <td>Custom CNN</td>
-        <td>0.4583</td>
-        <td><img src="./image/customCNN10.png" width="300"></td>
+        <td><code>0.5837</code></td>
+        <td><img src="./image/custom_cnn.png" width="300"></td>
     </tr>
     <tr>
         <td>VGG16</td>
-        <td>0.6258</td>
-        <td><img src="./image/vgg16_10.png" width="300"></td>
+        <td><code>0.7378</code></td>
+        <td><img src="./image/vgg16.png" width="300"></td>
     </tr>
     <tr>
         <td>ResNet50</td>
-        <td>0.4628</td>
-        <td><img src="./image/resnet50_10.png" width="300"></td>
-</table>
-
-- Epochs: `100`
-- lr: `0.00001`
-- Loss: `categorical_crossentropy`
-- Optimizer: `Adam`
-- batch_size: default (32)
-
-<table>
-    <tr>
-        <th>Model</th>
-        <th>Test Accuracy</th>
-        <th>Graph</th>
-    </tr>
-    <tr>
-        <td>Custom CNN</td>
-        <td>0.6239</td>
-        <td><img src="./image/customCNN100.png" width="300"></td>
-    </tr>
-    <tr>
-        <td>VGG16</td>
-        <td>0.6941</td>
-        <td><img src="./image/vgg16_100.png" width="300"></td>
-    </tr>
-    <tr>
-        <td>ResNet50</td>
-        <td>0.5234</td>
-        <td><img src="./image/resnet50_100.jpg" width="300"></td>
+        <td><code>0.549</code></td>
+        <td><img src="./image/ResNet50.png" width="300"></td>
 </table>
